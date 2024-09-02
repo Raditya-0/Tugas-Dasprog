@@ -4,7 +4,7 @@ efficiency = int(input("Masukkan berapa efisiensinya : "))
 
 konversi = 5800000
 # mengkonversi ke BTU dengan data input gallon dan efisiensi
-BTU = (gallon_oil * konversi)*(efficiency/100)
+BTU = ((gallon_oil/42) * konversi)*(efficiency/100)
 
 # Hasil konversi 
 print(f"Hasil akhir jumlah galon dengan efisiensi {efficiency}% adalah {BTU} BTU")
